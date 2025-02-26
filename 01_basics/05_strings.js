@@ -32,3 +32,62 @@ console.log(gameName.charAt(8)); // a
 // BY DEFAULT it takes a ZERO (0) index
 console.log(gameName.indexOf('t')) // 2
 console.log(gameName.indexOf()); // -1
+
+
+
+
+// PROTOTYPE of STRING  all are its "FUNCTION" --> ()
+/*
+anchor()
+at()
+big()
+blink()
+bold()
+CharAt()
+charCodeAt()
+codePointAt()
+Concat()
+String()
+endWith()
+fixed()
+fontcolor()
+fontsize()
+includes()
+indexOf()
+isWellLLFormed()
+italics()
+lastindex()
+length --> not a function
+link()
+localCompare()
+match()
+matchAll()
+normalize()
+padEnd()
+repeat()
+replace()
+replaceAll()
+search()
+slice()
+small()
+split()
+startsWith()
+strike()
+sub()
+substr()
+substring()
+sup()
+toLocaleLowerCase()
+toLocalUpperCase()
+toLowerCase()
+toString()
+toUpperCase()
+toWellFormed()
+trim()
+trimEnd() --> trimRight
+trimStart() --> trimLeft
+trimEnd() --> trimEnd
+trimStart() --> trimStart
+valueOf()
+[Symbol.iterator]() --> Symbol(Symbol.iterator)
+*/
