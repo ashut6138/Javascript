@@ -45,3 +45,7 @@ let someNumber = 33
 let stringNumber = Number(someNumber);
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+
+// ************************OPERATION*********************************
+
