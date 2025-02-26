@@ -65,3 +65,37 @@ console.log(typeof myObj) // object
 
 //STUDY
 //  "https://262.ecma-international.org/5.1/#sec-11.4.3"
+
+
+//***********MEMORY***************
+
+// STACK ---> Primitive  (copy)
+// HEAP ---> non-primitive (reference)
+
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anotherName = myYoutubename
+
+console.log(anotherName); // hiteshchoudharydotcom
+
+anotherName = "chaiaurcode"
+
+console.log(anotherName); // chaiaurcode
+
+console.log(myYoutubename) // hiteshchaudharydotcom
+console.log(anotherName) // chaiaurcode
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email); // hitesh@google.com
+console.log(userTwo.email); // hitesh@google.com
+
+
