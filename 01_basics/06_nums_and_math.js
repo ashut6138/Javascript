@@ -1,15 +1,4 @@
-const score = 400
-console.log(score) // 400
-
-const balance = new Number(100)
-console.log(balance); // [Number: 100]
-console.log(typeof balance); // object
-
-console.log(balance.toString()) // 100
-console.log(typeof balance) // object
-
-console.log(balance.toString().length);
-
+/*
 console.log(balance.toString().length); // 3
 console.log(balance.toFixed(2)); // 100.00
 console.log(balance.toFixed(1)); // 100.0
@@ -38,13 +27,33 @@ console.log(new_Hundreds.toLocaleString('en-IN')); // 10,00,000
 const hundreds = 1000000
 console.log(hundreds.toLocaleString()); // 1,000,000
 
-
+*/
 
 // +++++++++++++++++++++ "MATH'S" +++++++++++++++++++++++++++++++
 
+/*
 console.log(Math); // Object [Math] {}
+console.log(Math.abs(-4)) // 4 'negative to positive'
+console.log(Math.abs(4)) // 4 "but positive to positive"  not negative
+console.log(Math.round(8.6)) // 9
+console.log(Math.ceil(4.2)) // 5
+console.log(Math.floor(4.9)) // 4  
+console.log(Math.min(4, 5, 6, 3, 8)) // 3
+console.log(Math.min(4, 9, 8, 7)) // 4
+
+console.log(Math.random()) // " Its value will always be between 0 and 1"
+console.log(Math.random() * 10 + 1) // ex: 0.1 aa gaya isliye +1 karenge line no. 48
+console.log(Math.random() * 10)
+console.log((Math.random()*10)+1)
+console.log(Math.floor(Math.random() * 10) + 1) // 4  "0 To 9"
+*/
 
 
+const min = 10
+const max = 20
+
+console.log(Math.random()  * (max - min + 1));
+console.log(Math.floor(Math.random() * (max - min + 1)) + min)
 
 /*
 E : 2.718281828459045
@@ -92,4 +101,4 @@ tanh()
 trunch()
 SVGSymbolElement(Symbol.toStringTag): "Math"
 [[prototype]] : Object
-*/
+ */
