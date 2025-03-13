@@ -116,28 +116,76 @@ console.log(loginUserMessage())
 */
 
 
+/*
+function loginUserMessage(username = "sam"){
+    if(!username){
+        console.log("Please enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
+console.log(loginUserMessage())  // "output:" sam just logged in 
+*/
 
 
+function loginUserMessage(username = "sam"){
+    if(!username){
+        console.log("Please enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
+// console.log(loginUserMessage("hitesh"))   // "output:" hitesh just logged in 
+
+/*
+function calculateCartPrice(num1){
+    return num1
+}
+console.log(calculateCartPrice(2)); // 2
+console.log(calculateCartPrice(200, 400, 600)); // 200 "prefer the value of first" this problem is using "spread" operator
+*/
+
+/*
+function calculateCartPrice(...num1){
+    return num1
+}
+console.log(calculateCartPrice(200, 400, 600)); // [200, 400, 600]
+*/
+
+/*
+function calculateCartPrice(val1, val2, ...num1){
+    return num1
+}
+console.log(calculateCartPrice(200, 400, 600, 2000));  // [600, 2000]
+*/
+
+const user = {
+    Username: "hitesh",
+    price: 199
+}
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.Username} and price is ${anyObject.price}`);
+}
+
+// handleObject(user) // Username is hitesh and price is 199
+
+//----------direct object pass
+handleObject({
+    Username: "sam",
+    price: 399
+})
+// "OUTPUT"   Username is sam and price is 399
 
 
+const myNewArray = [200, 400, 100, 600]
 
+function returnSecondValue(getArray){
+    return getArray[1]
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(returnSecondValue(myNewArray)) // 400
+console.log(returnSecondValue([200, 400, 500, 1000])); // 400
 
 
 
