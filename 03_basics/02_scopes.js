@@ -79,8 +79,16 @@ if (true) {
 
 // +++++++++++++++++++++++++++++++ INTERESTING ++++++++++++++++++++++
 
-function addone
+function addone(num){
+    return num + 1
+}
+addoneone(5)
 
+
+const addTwo = function(num) {
+    return num + 2
+}
+addTwo(5)
 
 
 
