@@ -92,6 +92,120 @@ const users = [
     
 ]
 users[1].email
-console.log(tinderUser); // "OUTPUT:"  { id: '123abc', name: 'Sammy', isLoggedIn: false }
+// console.log(tinderUser); // "OUTPUT:"  { id: '123abc', name: 'Sammy', isLoggedIn: false }
 
-console.log(Object.keys(tinderUser)); // "OUTPUT:" [ 'id', 'name', 'isLoggedIn' ]
+// console.log(Object.keys(tinderUser)); // "OUTPUT:" [ 'id', 'name', 'isLoggedIn' ]
+// console.log(Object.values(tinderUser)); // "OUTPUT"  [ '123abc', 'Sammy', false ]
+// console.log(Object.entries(tinderUser)); // "OUTPUT"   [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
+
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true
+// console.log(tinderUser.hasOwnProperty('isLogged')); // false
+
+
+
+// ----------------------------------------4:20:08-----------------------------//
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+// const {courseInstructor} = course
+// console.log(courseInstructor); // "OUTPUT:"  hitesh
+
+//-----------------DESTRUCTURING:
+const {courseInstructor: instructor} = course
+console.log(instructor); // "OUTPUT:"  hitesh
+
+
+// -------------------API:  ---> apna kaam dusro ke sar pe daal dena
+
+/*
+{
+    "name": "hitesh",
+    "coursename": "js in hindi",
+    "price": "free"
+}
+*/
+
+[
+    {},
+    {},
+    {},
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
