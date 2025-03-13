@@ -176,7 +176,7 @@ if (userLoggedIn && debitCard && 2==3){
 
 
 
-/*
+
 const userLoggedIn = true
 const debitCard = true
 const loggedInFromGoogle = false
@@ -190,6 +190,4 @@ if (loggedInFromGoogle || loggedInFromEmail) {
     console.log("User logged in")
 }
 
-// User logged in
-
-*/
+// "OUTPUT:"        User logged in
