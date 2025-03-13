@@ -79,16 +79,16 @@ if (true) {
 
 // +++++++++++++++++++++++++++++++ INTERESTING ++++++++++++++++++++++
 
+console.log(addone(5));         // 6
 function addone(num){
     return num + 1
 }
-addoneone(5)
 
-
+addTwo(5)
 const addTwo = function(num) {
     return num + 2
 }
-addTwo(5)
+
 
 
 
